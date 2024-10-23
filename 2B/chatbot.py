@@ -1,7 +1,5 @@
 import random
 
-api_key = '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'
-
 user_hi = [
     "Hi",
     "Hello",

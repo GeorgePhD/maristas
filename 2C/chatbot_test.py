@@ -1,9 +1,5 @@
 import openai
 
-# Set up your API key
-openai.api_key = "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"  
-# Replace with your actual API key
-
 def chatbot_response(messages):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  # Use the newer model for chat completion
