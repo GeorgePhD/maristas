@@ -1,0 +1,53 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+div {
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    background-color: azure;
+    width: 600px;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    margin-bottom: 1rem;
+}
+#chatbox {
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for fading */
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;  /* Fades out to make it invisible */
+}
+
+.fade-in {
+    opacity: 1;  /* Fades in to make it visible */
+}
+
+input,
+button {
+    padding: 1rem;
+    font-size: 1.4rem;
+    border-radius: 0.4rem;
+}
+button:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+}
+
