@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0 auto;
+    width: 400px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+button {
+    width: 100%;
+}
+input {
+    padding: 10px;
+    width: 50%;
+    margin: 0.4rem;
+}
+select {
+    padding: 10px;
+    width: 30%;
+    margin: 0.4rem;
+}
+button {
+    padding: 10px;
+    margin: 0.4rem;
+    width: 5rem;
+}
+button:hover {
+    background-color: rgb(113, 217, 235);
+    color: rgb(0, 0, 0);
+}
+.result {
+    color: rgb(9, 9, 15);
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background-color: rgb(232, 229, 229);
+    padding: 1rem;
+    width: 100%;
+    transition: 400ms all ease-in-out ;
+    -webkit-transition: 400ms all ease-in-out ;
+    -moz-transition: 400ms all ease-in-out ;
+    -ms-transition: 400ms all ease-in-out ;
+    -o-transition: 400ms all ease-in-out ;
+}
+.result:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    margin-top: 2rem;
+    background-color: aliceblue;
+    color: green;
+}
